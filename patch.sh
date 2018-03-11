@@ -2,7 +2,7 @@
 
 ROOT="${PWD}"
 REPOSITORIES=(
-    'device/lineage/sepolicy'
+    'device/aicp/sepolicy'
     'frameworks/native'
     'system/core'
     'system/sepolicy'

@@ -171,15 +171,15 @@ index c65816c..dcc5eab 100644
 --- a/qcom/sepolicy.mk
 +++ b/qcom/sepolicy.mk
 @@ -3,9 +3,6 @@
- # that inherit from Lineage
+ # that inherit from AICP
  #
  
 -BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
--    device/lineage/sepolicy/qcom/private
+-    device/aicp/sepolicy/qcom/private
 -
  BOARD_SEPOLICY_DIRS += \
-     device/lineage/sepolicy/qcom/common \
-     device/lineage/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+     device/aicp/sepolicy/qcom/common \
+     device/aicp/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
 -- 
 2.14.3
 
